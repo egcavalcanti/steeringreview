@@ -50,7 +50,7 @@ tol = 1e-10;
 %if unspecified, it is assumed that the assemblage is unnormalised.
 
 [dB,~,oa,ma] = size(sigma);
-% dB = dim. of Bob, oa = # outcomes for Alice, ma = # outcomes for Alice
+% dB = dim. of Bob, oa = # outcomes for Alice, ma = # inputs for Alice
 
 
 if isa(sigma,'cvx') == 0 % if sigma isn't a CVX variable
@@ -108,8 +108,8 @@ elseif isa(sigma,'cvx') == 1 % if sigma is a CVX variable
         
     cvx_end
     
-    % CVX will return +? if the problem is infeasible, and 0 if feasible
-    % this maps {+?,0} to {0,1}
+    % CVX will return +inf if the problem is infeasible, and 0 if feasible
+    % this maps {+inf,0} to {0,1}
     is_NS_assemblage = 1-min(cvx_optval,1);
     
 end
