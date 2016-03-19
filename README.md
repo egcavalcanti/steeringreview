@@ -10,6 +10,7 @@ All code is written in MATLAB and requires:
 It has been tested on Matlab R2014a, and CVX 2.1 
 
 The code comprises the following:
+
 - Membership, helper, and misc:
   - [NSAssemblage](https://github.com/paulskrzypczyk/steeringreview/blob/master/NSAssemblage.m): determines whether a bipartite assemblage is a valid non-signalling assemblage or not<sup>§</sup>.
   - [LHSAssemblage](https://github.com/paulskrzypczyk/steeringreview/blob/master/LHSAssemblage.m): determines whether a biparitte assemblage has an LHS model or not<sup>§</sup>.
@@ -20,9 +21,15 @@ The code comprises the following:
   - [genSinglePartyArray](https://github.com/paulskrzypczyk/steeringreview/blob/master/genSinglePartyArray.m): generates the single-party determinstic probability distributions
   - [findRadiusPolytopeInBlochSphere](https://github.com/paulskrzypczyk/steeringreview/blob/master/findRadiusPolytopeInBlochSphere.m): determines the radius of the largest ball which can fit inside a polytope contained in the Bloch ball determined by a set of measurements.
 
-- Steering quantifiers
+- Steering quantifiers:
   - [steeringRobustness](https://github.com/paulskrzypczyk/steeringreview/blob/master/steeringRobustness.m): calculates the (standard/consistent) Steering Robustness of an assemblage.
   - [steeringWeight](https://github.com/paulskrzypczyk/steeringreview/blob/master/steeringWeight.m): calculates the (standard/consistent) Steering Weight of an assemblage.
   - [steeringLHSRobustness](https://github.com/paulskrzypczyk/steeringreview/blob/master/steeringLHSRobustness.m): calculates the (standard/consistent) Steering LHS-Robustness of an assemblage.
-  
+
+- Local-Hidden-State models:
+  - [targetStatePVMLHS](https://github.com/paulskrzypczyk/steeringreview/blob/master/targetStatePVMLHS.m): determine if a qubit-qudit state has an LHS model for all qubit projective measurements on Alice.
+  - [targetStatePOVMLHS](https://github.com/paulskrzypczyk/steeringreview/blob/master/targetStatePOVMLHS.m): determine if a qubit-qudit state has an LHS model for all qubit POVM measurements on Alice.
+  - [findPVMLHSStateGivenWitness](https://github.com/paulskrzypczyk/steeringreview/blob/master/findPVMLHSStateGivenWitness.m): finds a qubit-qudit state that has an LHS model for all qubit projective measurements on Alice and violates a given entanglement witness.
+  - [findPOVMLHSStateGivenWitness](https://github.com/paulskrzypczyk/steeringreview/blob/master/findPOVMLHSStateGivenWitness.m): finds a qubit-qudit state that has an LHS model for all qubit POVM measurements on Alice and violates a given entanglement witness.  
+  - 
 <sup>§</sup>: These files can be used inside CVX as a means to enforce the corresponding constraint. 
