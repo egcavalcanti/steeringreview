@@ -1,6 +1,5 @@
 function r = findRadiusPolytopeInBlochSphere(Max)
 %FINDRADIUSPOLYTOPEINBLOCHSPHERE finds radius of biggest ball which fits inside the polytope
-%
 % This function has two required inputs:
 %   Max: a 4-D array, containing the set of qubit projective measurements.
 %   That is, Max is a 2 x 2 x 2 x ma array, comprising ma measurements,
