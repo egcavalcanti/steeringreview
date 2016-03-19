@@ -16,8 +16,13 @@ The code comprises the following:
   - [genAssemblage](https://github.com/paulskrzypczyk/steeringreview/blob/master/genAssemblage.m): generates an assemblage starting from a quantum state and a set of measurements.
   - [validPOVMs](https://github.com/paulskrzypczyk/steeringreview/blob/master/validPOVMs.m): determines whether a set of POVMs is valid or not<sup>§</sup>.
   - [JMPOVMs](https://github.com/paulskrzypczyk/steeringreview/blob/master/JMPOVMs.m): determines whether a set of measurements is jointly measurable or not<sup>§</sup>.
-  - [genRandProjMeas](https://github.com/paulskrzypczyk/steeringreview/blob/master/genRandProjMeas.m): generates a random set of projective measurements
+  - [genRandProjMeas](https://github.com/paulskrzypczyk/steeringreview/blob/master/genRandProjMeas.m): generates a random set of projective measurements.
   - [genSinglePartyArray](https://github.com/paulskrzypczyk/steeringreview/blob/master/genSinglePartyArray.m): generates the single-party determinstic probability distributions
   - [findRadiusPolytopeInBlochSphere](https://github.com/paulskrzypczyk/steeringreview/blob/master/findRadiusPolytopeInBlochSphere.m): determines the radius of the largest ball which can fit inside a polytope contained in the Bloch ball determined by a set of measurements.
+
+- Steering quantifiers
+  - [steeringRobustness](https://github.com/paulskrzypczyk/steeringreview/blob/master/steeringRobustness.m): calculates the (standard/consistent) Steering Robustness of an assemblage.
+  - [steeringWeight](https://github.com/paulskrzypczyk/steeringreview/blob/master/steeringWeight.m): calculates the (standard/consistent) Steering Weight of an assemblage.
+  - [steeringLHSRobustness](https://github.com/paulskrzypczyk/steeringreview/blob/master/steeringLHSRobustness.m): calculates the (standard/consistent) Steering LHS-Robustness of an assemblage.
   
 <sup>§</sup>: These files can be used inside CVX as a means to enforce the corresponding constraint. 
