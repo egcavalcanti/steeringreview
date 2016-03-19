@@ -27,9 +27,9 @@ The code comprises the following:
   - [steeringLHSRobustness](https://github.com/paulskrzypczyk/steeringreview/blob/master/steeringLHSRobustness.m): calculates the (standard/consistent) Steering LHS-Robustness of an assemblage.
 
 - Local-Hidden-State models:
-  - [targetStatePVMLHS](https://github.com/paulskrzypczyk/steeringreview/blob/master/targetStatePVMLHS.m): determine if a qubit-qudit state has an LHS model for all qubit projective measurements on Alice.
-  - [targetStatePOVMLHS](https://github.com/paulskrzypczyk/steeringreview/blob/master/targetStatePOVMLHS.m): determine if a qubit-qudit state has an LHS model for all qubit POVM measurements on Alice.
-  - [findPVMLHSStateGivenWitness](https://github.com/paulskrzypczyk/steeringreview/blob/master/findPVMLHSStateGivenWitness.m): finds a qubit-qudit state that has an LHS model for all qubit projective measurements on Alice and violates a given entanglement witness.
-  - [findPOVMLHSStateGivenWitness](https://github.com/paulskrzypczyk/steeringreview/blob/master/findPOVMLHSStateGivenWitness.m): finds a qubit-qudit state that has an LHS model for all qubit POVM measurements on Alice and violates a given entanglement witness.  
-  - 
+  - [targetStatePVMLHS](https://github.com/paulskrzypczyk/steeringreview/blob/master/targetStatePVMLHS.m): determine if a qubit-qudit state has an LHS model for all projective measurements on Alice.
+  - [targetStatePOVMLHS](https://github.com/paulskrzypczyk/steeringreview/blob/master/targetStatePOVMLHS.m): determine if a qubit-qudit state has an LHS model for all POVMs on Alice.
+  - [findPVMLHSStateGivenWitness](https://github.com/paulskrzypczyk/steeringreview/blob/master/findPVMLHSStateGivenWitness.m): finds a qubit-qudit state that has an LHS model for all projective measurements on Alice and violates a given entanglement witness.
+  - [findPOVMLHSStateGivenWitness](https://github.com/paulskrzypczyk/steeringreview/blob/master/findPOVMLHSStateGivenWitness.m): finds a qubit-qudit state that has an LHS model for all POVMs on Alice and violates a given entanglement witness.  
+
 <sup>§</sup>: These files can be used inside CVX as a means to enforce the corresponding constraint. 
