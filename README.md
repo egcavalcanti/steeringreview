@@ -19,7 +19,8 @@ The code comprises the following:
   - [JMPOVMs](https://github.com/paulskrzypczyk/steeringreview/blob/master/JMPOVMs.m): determines whether a set of measurements is jointly measurable or not<sup>§</sup>.
   - [genRandProjMeas](https://github.com/paulskrzypczyk/steeringreview/blob/master/genRandProjMeas.m): generates a random set of projective measurements.
   - [genSinglePartyArray](https://github.com/paulskrzypczyk/steeringreview/blob/master/genSinglePartyArray.m): generates the single-party determinstic probability distributions
-  - [findRadiusPolytopeInBlochSphere](https://github.com/paulskrzypczyk/steeringreview/blob/master/findRadiusPolytopeInBlochSphere.m): determines the radius of the largest ball which can fit inside a polytope contained in the Bloch ball determined by a set of measurements.
+  - [bestSteeringMeasurements](https://github.com/paulskrzypczyk/steeringreview/blob/master/bestSteeringMeasurements.m): finds the optimal measurements given a state and a steering functional.
+  - [findRadiusPolytopeInBlochSphere](https://github.com/paulskrzypczyk/steeringreview/blob/master/findRadiusPolytopeInBlochSphere.m): determines the radius of the largest ball which can fit inside a polytope contained in the Bloch ball determined by a set of measurements<sup>¶</sup>.
 
 - Steering quantifiers:
   - [steeringRobustness](https://github.com/paulskrzypczyk/steeringreview/blob/master/steeringRobustness.m): calculates the (standard/consistent) Steering Robustness of an assemblage.
@@ -32,4 +33,9 @@ The code comprises the following:
   - [findPVMLHSStateGivenWitness](https://github.com/paulskrzypczyk/steeringreview/blob/master/findPVMLHSStateGivenWitness.m): finds a qubit-qudit state that has an LHS model for all projective measurements on Alice and violates a given entanglement witness.
   - [findPOVMLHSStateGivenWitness](https://github.com/paulskrzypczyk/steeringreview/blob/master/findPOVMLHSStateGivenWitness.m): finds a qubit-qudit state that has an LHS model for all POVMs on Alice and violates a given entanglement witness.  
 
+- Applications:
+  - [localSteeringGuessProb](https://github.com/paulskrzypczyk/steeringreview/blob/master/localSteeringGuessProb.m): Calculates the one-sided device-independent local guessing probability.
+  - [globalSteeringGuessProb](https://github.com/paulskrzypczyk/steeringreview/blob/master/globalSteeringGuessProb.m): Calculates the one-sided device-independent global guessing probability. 
+  
 <sup>§</sup>: These files can be used inside CVX as a means to enforce the corresponding constraint. 
+<sup>¶</sup>: This file additional needs [vert2lcon](http://www.mathworks.com/matlabcentral/fileexchange/30892).
