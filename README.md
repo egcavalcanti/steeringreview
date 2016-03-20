@@ -38,4 +38,5 @@ The code comprises the following:
   - [globalSteeringGuessProb](https://github.com/paulskrzypczyk/steeringreview/blob/master/globalSteeringGuessProb.m): Calculates the one-sided device-independent global guessing probability. 
   
 <sup>§</sup>: These files can be used inside CVX as a means to enforce the corresponding constraint. 
-<sup>¶</sup>: This file additional needs [vert2lcon](http://www.mathworks.com/matlabcentral/fileexchange/30892).
+
+<sup>¶</sup>: This file additionally needs [vert2lcon](http://www.mathworks.com/matlabcentral/fileexchange/30892).
