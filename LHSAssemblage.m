@@ -42,9 +42,9 @@ function [is_LHS_assemblage,siglam] = LHSAssemblage(sigma,varargin)
 %  Alice, preparing quantum states of dimension dB x dB for Bob. CVX
 %  enforces that sigma should have an LHS model.
 %
-%   requires: CVX (http://cvxr.com/cvx/), QETLAB (http://www.qetlab.com)
-%   authors: Paul Skrzypczyk, Daniel Cavalcanti
-%   last updated: March 17, 2016
+% requires: CVX (http://cvxr.com/cvx/), QETLAB (http://www.qetlab.com)
+% authors: Paul Skrzypczyk, Daniel Cavalcanti
+% last updated: March 17, 2016
 
 [nm] = opt_args({0},varargin{:}); 
 %if unspecified, it is assumed that the assemblage is unnormalised.
