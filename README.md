@@ -33,6 +33,12 @@ The code comprises the following:
   - [findPVMLHSStateGivenWitness](https://github.com/paulskrzypczyk/steeringreview/blob/master/findPVMLHSStateGivenWitness.m): finds a qubit-qudit state that has an LHS model for all projective measurements on Alice and violates a given entanglement witness.
   - [findPOVMLHSStateGivenWitness](https://github.com/paulskrzypczyk/steeringreview/blob/master/findPOVMLHSStateGivenWitness.m): finds a qubit-qudit state that has an LHS model for all POVMs on Alice and violates a given entanglement witness.  
 
+- Multipartite steering:
+  - [fLHSTripartite1Unt](https://github.com/paulskrzypczyk/steeringreview/blob/master/fLHSTripartite1Unt.m): determine if a tripartite assemblage with one untrusted device could have arisen from a fully-local state.
+  - [fLHSTripartite2Unt](https://github.com/paulskrzypczyk/steeringreview/blob/master/fLHSTripartite1Unt.m): determine if a tripartite assemblage with two untrusted devices could have arisen from a fully-local state.
+  - [bLHSTripartite1Unt](https://github.com/paulskrzypczyk/steeringreview/blob/master/fLHSTripartite1Unt.m): determine if a tripartite assemblage with one untrusted device could have arisen from a bi-separable state.
+  - ~~bLHSTripartite2Unt~~: determine if a tripartite assemblage with two untrusted devices could have arisen from a bi-separable state. *still to come*
+
 - Applications:
   - [localSteeringGuessProb](https://github.com/paulskrzypczyk/steeringreview/blob/master/localSteeringGuessProb.m): Calculates the one-sided device-independent local guessing probability.
   - [globalSteeringGuessProb](https://github.com/paulskrzypczyk/steeringreview/blob/master/globalSteeringGuessProb.m): Calculates the one-sided device-independent global guessing probability. 
