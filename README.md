@@ -44,7 +44,9 @@ The code comprises the following:
 - Applications:
   - [localSteeringGuessProb](https://github.com/paulskrzypczyk/steeringreview/blob/master/localSteeringGuessProb.m): calculate the one-sided device-independent local guessing probability.
   - [globalSteeringGuessProb](https://github.com/paulskrzypczyk/steeringreview/blob/master/globalSteeringGuessProb.m): calculate the one-sided device-independent global guessing probability. 
-  
+  - [localSteeringGuessProbState](https://github.com/paulskrzypczyk/steeringreview/blob/master/localSteeringGuessProbState.m): estimate the one-sided device-independent local guessing probability of a state.
+  - [globalSteeringGuessProbState](https://github.com/paulskrzypczyk/steeringreview/blob/master/globalSteeringGuessProb.m): estimate the one-sided device-independent global guessing probability of a state. 
+  - 
 <sup>§</sup>: These files can be used inside CVX as a means to enforce the corresponding constraint. 
 
 <sup>¶</sup>: This file additionally needs [vert2lcon](http://www.mathworks.com/matlabcentral/fileexchange/30892).
