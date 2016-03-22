@@ -20,7 +20,7 @@ Ndet = oa^ma; %number of deterministic behaviours
 SingleParty = zeros(oa,ma,Ndet); % initialise array
 
 for lam = 0:Ndet-1
-    lamdec = de2bi(lam,ma,oa); % generates the string of outcomes a 
+    lamdec = dec2base(lam,oa,ma)-'0'; % generates the string of outcomes a 
                                 %(for each x), for the given variable lam
     for x = 1:ma
         for a = 0:oa-1
@@ -30,5 +30,5 @@ for lam = 0:Ndet-1
     end
 end
 
-
+% de2bi(lam,ma,oa);
 end
