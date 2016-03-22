@@ -42,11 +42,11 @@ The code comprises the following:
   - ~~bLHSTripartite2Unt~~: determine if a tripartite assemblage with two untrusted devices could have arisen from a bi-separable state. *still to come*
 
 - Applications:
-  - [localSteeringGuessProb](https://github.com/paulskrzypczyk/steeringreview/blob/master/localSteeringGuessProb.m): calculate the one-sided device-independent local guessing probability of an assemblage.
-  - [globalSteeringGuessProb](https://github.com/paulskrzypczyk/steeringreview/blob/master/globalSteeringGuessProb.m): calculate the one-sided device-independent global guessing probability of an assemblage. 
-  - [localSteeringGuessProbState](https://github.com/paulskrzypczyk/steeringreview/blob/master/localSteeringGuessProbState.m): estimate the one-sided device-independent local guessing probability of a state.
-  - [globalSteeringGuessProbState](https://github.com/paulskrzypczyk/steeringreview/blob/master/globalSteeringGuessProb.m): estimate the one-sided device-independent global guessing probability of a state. 
-  - 
+  - [localSteeringGuessProb](https://github.com/paulskrzypczyk/steeringreview/blob/master/localSteeringGuessProb.m): calculate the one-sided device-independent local guessing prob. of an assemblage.
+  - [globalSteeringGuessProb](https://github.com/paulskrzypczyk/steeringreview/blob/master/globalSteeringGuessProb.m): calculate the one-sided device-independent global guessing prob. of an assemblage. 
+  - [localSteeringGuessProbState](https://github.com/paulskrzypczyk/steeringreview/blob/master/localSteeringGuessProbState.m): estimate the one-sided device-independent local guessing prob. of a state.
+  - [globalSteeringGuessProbState](https://github.com/paulskrzypczyk/steeringreview/blob/master/globalSteeringGuessProb.m): estimate the one-sided device-independent global guessing prob. of a state. 
+
 <sup>§</sup>: These files can be used inside CVX as a means to enforce the corresponding constraint. 
 
 <sup>¶</sup>: This file additionally needs [vert2lcon](http://www.mathworks.com/matlabcentral/fileexchange/30892).
