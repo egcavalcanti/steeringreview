@@ -26,6 +26,8 @@ The code comprises the following:
   - [steeringRobustness](https://github.com/paulskrzypczyk/steeringreview/blob/master/steeringRobustness.m): calculates the (standard/consistent) Steering Robustness of an assemblage.
   - [steeringWeight](https://github.com/paulskrzypczyk/steeringreview/blob/master/steeringWeight.m): calculates the (standard/consistent) Steering Weight of an assemblage.
   - [steeringLHSRobustness](https://github.com/paulskrzypczyk/steeringreview/blob/master/steeringLHSRobustness.m): calculates the (standard/consistent) Steering LHS-Robustness of an assemblage.
+  - [steeringRobustnessState](https://github.com/paulskrzypczyk/steeringreview/blob/master/steeringRobustnessState.m): estimate the Steering Robustness of a state.
+  - [steeringWeightState](https://github.com/paulskrzypczyk/steeringreview/blob/master/steeringWeightState.m): estimate the Steering Weight of a state.
 
 - Local-Hidden-State models:
   - [targetStatePVMLHS](https://github.com/paulskrzypczyk/steeringreview/blob/master/targetStatePVMLHS.m): determine if a qubit-qudit state has an LHS model for all projective measurements on Alice.
@@ -40,8 +42,8 @@ The code comprises the following:
   - ~~bLHSTripartite2Unt~~: determine if a tripartite assemblage with two untrusted devices could have arisen from a bi-separable state. *still to come*
 
 - Applications:
-  - [localSteeringGuessProb](https://github.com/paulskrzypczyk/steeringreview/blob/master/localSteeringGuessProb.m): Calculates the one-sided device-independent local guessing probability.
-  - [globalSteeringGuessProb](https://github.com/paulskrzypczyk/steeringreview/blob/master/globalSteeringGuessProb.m): Calculates the one-sided device-independent global guessing probability. 
+  - [localSteeringGuessProb](https://github.com/paulskrzypczyk/steeringreview/blob/master/localSteeringGuessProb.m): calculate the one-sided device-independent local guessing probability.
+  - [globalSteeringGuessProb](https://github.com/paulskrzypczyk/steeringreview/blob/master/globalSteeringGuessProb.m): calculate the one-sided device-independent global guessing probability. 
   
 <sup>§</sup>: These files can be used inside CVX as a means to enforce the corresponding constraint. 
 
