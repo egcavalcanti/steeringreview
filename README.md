@@ -38,8 +38,8 @@ The code comprises the following:
 
 - Multipartite steering:
   - [fLHSTripartite1Unt](https://github.com/paulskrzypczyk/steeringreview/blob/master/fLHSTripartite1Unt.m): determine if a tripartite assemblage with one untrusted device could have arisen from a fully-local state.
-  - [fLHSTripartite2Unt](https://github.com/paulskrzypczyk/steeringreview/blob/master/fLHSTripartite1Unt.m): determine if a tripartite assemblage with two untrusted devices could have arisen from a fully-local state.
-  - [bLHSTripartite1Unt](https://github.com/paulskrzypczyk/steeringreview/blob/master/fLHSTripartite1Unt.m): determine if a tripartite assemblage with one untrusted device could have arisen from a bi-separable state.
+  - [fLHSTripartite2Unt](https://github.com/paulskrzypczyk/steeringreview/blob/master/fLHSTripartite2Unt.m): determine if a tripartite assemblage with two untrusted devices could have arisen from a fully-local state.
+  - [bLHSTripartite1Unt](https://github.com/paulskrzypczyk/steeringreview/blob/master/bLHSTripartite1Unt.m): determine if a tripartite assemblage with one untrusted device could have arisen from a bi-separable state.
   - ~~bLHSTripartite2Unt~~: determine if a tripartite assemblage with two untrusted devices could have arisen from a bi-separable state. *still to come*
 
 - Applications:
