@@ -20,6 +20,7 @@ The code comprises the following:
   - [genRandProjMeas](https://github.com/paulskrzypczyk/steeringreview/blob/master/genRandProjMeas.m): generate a random set of projective measurements.
   - [genSinglePartyArray](https://github.com/paulskrzypczyk/steeringreview/blob/master/genSinglePartyArray.m): generate the single-party determinstic probability distributions
   - [bestSteeringMeasurements](https://github.com/paulskrzypczyk/steeringreview/blob/master/bestSteeringMeasurements.m): find the optimal measurements given a state and a steering functional.
+  - [bestSteeringState](https://github.com/paulskrzypczyk/steeringreview/blob/master/bestSteeringState.m): find the optimal state given a set of measurements and a steering functional.
   - [findRadiusPolytopeInBlochSphere](https://github.com/paulskrzypczyk/steeringreview/blob/master/findRadiusPolytopeInBlochSphere.m): determine the radius of the largest ball which can fit inside a polytope contained in the Bloch ball determined by a set of measurements<sup>¶</sup>.
 
 - Steering quantifiers:
