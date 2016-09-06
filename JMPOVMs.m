@@ -39,10 +39,10 @@ function [are_JM_POVMs,Glam] = JMPOVMs(Max)
 %   last updated: March 17, 2016
 
 
-[dA,~,oa,ma] = size(Max)
+[dA,~,oa,ma] = size(Max);
 % dA = dim., oa = # outcomes, ma = # inputs for Alice
 
-Ndet = oa^ma % number of deterministic strategies for Alice
+Ndet = oa^ma; % number of deterministic strategies for Alice
 SingleParty = genSinglePartyArray(oa,ma); % generate array containing 
                                             %single party strategies 
 

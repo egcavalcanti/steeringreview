@@ -25,7 +25,7 @@ function is_NS_assemblage = NSAssemblage(sigma,varargin)
 % EXAMPLE:
 %   cvx_begin
 %
-%       variable sigma(dB,dB,oa,ma)
+%       variable sigma(dB,dB,oa,ma) hermitian semidefinite
 %
 %       subject to
 %
