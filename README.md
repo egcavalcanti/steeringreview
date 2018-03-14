@@ -1,7 +1,10 @@
 ### Code to accompany *[Quantum steering: a review with focus on semi-definite programming](https://doi.org/10.1088/1361-6633/80/2/024001)*
 #### Daniel Cavalcanti and Paul Skrzypczyk
 
-This repository provides a small collection of code which implements many of the semidefinite programs presented in the review article "*[Quantum steering: a review with focus on semi-definite programming](https://doi.org/10.1088/1361-6633/80/2/024001)*" Daniel Cavalcanti and Paul Skrzypczyk, Rep. Prog. Phys. 80 024001 (2017) .
+This repository provides a small collection of code which implements many of the semidefinite programs presented in the review article  
+*[Quantum steering: a review with focus on semi-definite programming](https://doi.org/10.1088/1361-6633/80/2/024001)*      
+Daniel Cavalcanti and Paul Skrzypczyk  
+Rep. Prog. Phys. **80** 024001 (2017) .
 
 All code is written in MATLAB and requires:
 - [CVX](http://cvxr.com/) - a Matlab-based convex modeling framework
